@@ -3,9 +3,8 @@
 .top-navbar {
   position: sticky;
   top: 0;
-  padding: 20px 25px;
-  font-size: 24px;
-  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+  padding: 18px 25px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
   background-color: rgb(50, 50, 50);
   color: white;
   .pal-logo {
@@ -22,6 +21,7 @@
     padding-bottom: 2px;
   }
   .top-nav-logo-box {
+    font-size: 24px;
     transition: all 0.4s;
     &:hover {
       transform: scale(1.05);
