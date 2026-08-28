@@ -1,5 +1,9 @@
 @use "utility.scss";
 
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
 .top-navbar {
   position: sticky;
   top: 0;
