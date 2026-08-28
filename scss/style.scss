@@ -1,0 +1,30 @@
+@use "utility.scss";
+
+.top-navbar {
+  position: sticky;
+  top: 0;
+  padding: 20px 25px;
+  font-size: 24px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+  background-color: rgb(50, 50, 50);
+  color: white;
+  .pal-logo {
+    width: 1.125em;
+    height: 1.125em;
+    border-radius: 5px;
+  }
+  .x-logo {
+    font-size: 0.75em;
+    padding: 0 5px 0 7.5px;
+  }
+
+  .dopamintic-logo {
+    padding-bottom: 2px;
+  }
+  .top-nav-logo-box {
+    transition: all 0.4s;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
