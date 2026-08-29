@@ -54,4 +54,46 @@ body {
 }
 .top-navbar .top-nav-logo-box:hover {
   transform: scale(1.05);
+}
+
+.hero-container {
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+.hero-container .hero-title {
+  padding: 100px 0;
+}
+.hero-container .hero-title h2 {
+  font-size: clamp(48px, 5vw, 75px);
+}
+.hero-container .hero-title p {
+  font-size: clamp(16px, 1.75vw, 24px);
+  padding-top: 32px;
+}
+.hero-container .hero-note-img {
+  width: 100%;
+  max-width: 450px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container .hero-title {
+    padding: 75px 0 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-container .hero-img-box {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    overflow: hidden;
+  }
+  .hero-container .hero-note-img {
+    width: 75%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: top;
+       object-position: top;
+  }
 }/*# sourceMappingURL=style.css.map */

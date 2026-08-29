@@ -35,35 +35,59 @@
   <body>
     <div class="main-layout-container">
       <nav class="top-navbar">
-        <ul class="reset-ul">
-          <div class="row">
-            <div class="col">
-              <li>
-                <a href="/" class="reset-a d-flex">
-                  <div class="d-flex align-items-center top-nav-logo-box">
-                    <img class="pal-logo" src="img/palworld-logo.jpg" alt="" />
-                    <span class="x-logo m-0">X</span>
-                    <span class="dopamintic-logo m-0">DOPAMINTIC</span>
-                  </div>
-                </a>
-              </li>
-            </div>
+        <div class="container">
+          <ul class="reset-ul">
+            <div class="row">
+              <div class="col">
+                <li>
+                  <a href="/" class="reset-a d-flex">
+                    <div class="d-flex align-items-center top-nav-logo-box">
+                      <img
+                        class="pal-logo"
+                        src="img/palworld-logo.jpg"
+                        alt=""
+                      />
+                      <span class="x-logo m-0">X</span>
+                      <span class="dopamintic-logo m-0">DOPAMINTIC</span>
+                    </div>
+                  </a>
+                </li>
+              </div>
 
-            <!-- todo: 메뉴의 li, a, 내용물 나중에 수정합시다 -->
-            <div class="col">
+              <!-- todo: 메뉴의 li, a, 내용물 나중에 수정합시다 -->
+              <div class="col">
+                <div
+                  class="d-flex justify-content-end align-items-center gap-3 h-100"
+                >
+                  <li><a class="reset-a" href="">테스트 메뉴</a></li>
+                  <li><a class="reset-a" href="">테스트 메뉴</a></li>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="main-container">
+        <div class="hero-container">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7">
+                <div class="hero-title">
+                  <h2>개발 공부하다...</h2>
+                  <h2>빡쳐서 서버 만듦</h2>
+                  <p>봉춘씨의 (아마도) 쓸모 있는 프로젝트 그 첫 번째</p>
+                </div>
+              </div>
+
               <div
-                class="d-flex justify-content-end align-items-center gap-3 h-100"
+                class="hero-img-box col-md-5 d-flex justify-content-lg-end align-items-end"
               >
-                <li><a class="reset-a" href="">테스트 메뉴</a></li>
-                <li><a class="reset-a" href="">테스트 메뉴</a></li>
+                <img class="hero-note-img" src="img/note-img.png" alt="" />
               </div>
             </div>
           </div>
-        </ul>
-      </nav>
-
-      <div style="height: 500px; background-color: rgb(50, 50, 50)">
-        메인 컨텐츠 콘테이너
+        </div>
       </div>
 
       <footer>DOPAMINTIC</footer>
