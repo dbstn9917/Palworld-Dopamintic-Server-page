@@ -94,7 +94,7 @@ body {
   .play-now-video {
     position: absolute;
     width: 100%;
-    min-width: 1285px;
+    min-width: 1281px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -108,7 +108,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.15em;
+    font-size: 1em;
     .pal-logo {
       width: 1.125em;
       height: 1.125em;
@@ -128,7 +128,7 @@ body {
     }
   }
   .play-now-description {
-    font-size: 1em;
+    font-size: 0.8em;
     text-align: center;
     padding-bottom: 1.75em;
     font-weight: 500;
@@ -150,6 +150,15 @@ body {
     }
     .red-btn {
       font-size: clamp(16px, 3vw, 24px);
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .play-now-container {
+    height: 360px;
+    .play-now-video {
+      min-width: 641px;
     }
   }
 }
