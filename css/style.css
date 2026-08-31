@@ -78,7 +78,7 @@ body {
   padding: 100px 0;
 }
 .hero-container .hero-title h2 {
-  font-size: clamp(48px, 5vw, 75px);
+  font-size: clamp(40px, 5vw, 75px);
 }
 .hero-container .hero-title p {
   font-size: clamp(16px, 1.75vw, 24px);
