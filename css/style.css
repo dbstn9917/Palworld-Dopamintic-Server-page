@@ -33,7 +33,7 @@
 }
 
 .section-header {
-  font-size: clamp(20px, 5vw, 48px);
+  font-size: clamp(20px, 5vw, 36px);
 }
 
 body {
