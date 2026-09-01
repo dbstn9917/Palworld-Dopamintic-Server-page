@@ -132,7 +132,7 @@ body {
 .play-now-container .play-now-video {
   position: absolute;
   width: 100%;
-  min-width: 1281px;
+  min-width: 1282px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -184,7 +184,7 @@ body {
     height: 480px;
   }
   .play-now-container .play-now-video {
-    min-width: 855px;
+    min-width: 856px;
   }
   .play-now-container .red-btn {
     font-size: clamp(16px, 3vw, 24px);
@@ -195,7 +195,7 @@ body {
     height: 360px;
   }
   .play-now-container .play-now-video {
-    min-width: 641px;
+    min-width: 642px;
   }
 }
 .about-more-container .about-more-card {
@@ -222,6 +222,7 @@ body {
 .about-more-container .about-more-card h3 {
   font-size: 0.875em;
   font-weight: 400;
+  color: rgb(75, 75, 75);
 }
 .about-more-container .about-more-card p {
   font-weight: 500;
@@ -231,6 +232,13 @@ body {
 .about-more-container .about-more-card .about-more-card-img {
   width: 100%;
   max-width: 150px;
+}
+.about-more-container .about-more-card--2 {
+  color: rgb(200, 200, 200);
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0) 80%, rgba(86, 99, 133, 0.5) 20%), linear-gradient(60deg, rgba(255, 255, 255, 0) 80%, rgba(86, 99, 133, 0.5) 20%), rgb(35, 35, 35);
+}
+.about-more-container .about-more-card--2 h3 {
+  color: rgb(170, 170, 170);
 }
 
 @media screen and (min-width: 992px) {
