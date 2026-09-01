@@ -214,6 +214,10 @@ body {
 }
 .about-more-container .about-more-card .about-more-img-box {
   width: 34%;
+  max-height: 150px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 .about-more-container .about-more-card h3 {
   font-size: 14px;
@@ -225,4 +229,5 @@ body {
 }
 .about-more-container .about-more-card .about-more-card-img {
   width: 100%;
+  max-width: 150px;
 }/*# sourceMappingURL=style.css.map */

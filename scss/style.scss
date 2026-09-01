@@ -191,6 +191,10 @@ body {
     }
     .about-more-img-box {
       width: 34%;
+      max-height: 150px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
     }
     h3 {
       font-size: 14px;
@@ -202,6 +206,7 @@ body {
     }
     .about-more-card-img {
       width: 100%;
+      max-width: 150px;
     }
   }
 }
