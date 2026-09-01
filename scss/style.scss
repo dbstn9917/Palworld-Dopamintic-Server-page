@@ -197,16 +197,23 @@ body {
       justify-content: center;
     }
     h3 {
-      font-size: 14px;
+      font-size: 0.875em;
       font-weight: 400;
     }
     p {
       font-weight: 500;
       margin: 0;
+      font-size: 1em;
     }
     .about-more-card-img {
       width: 100%;
       max-width: 150px;
     }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .about-more-card-text-container {
+    font-size: 20px;
   }
 }
