@@ -33,7 +33,10 @@
 }
 
 .section-header {
+  font-weight: 600;
   font-size: clamp(20px, 5vw, 36px);
+  padding-top: 2rem;
+  padding-bottom: 1.25rem;
 }
 
 body {
