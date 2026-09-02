@@ -80,9 +80,9 @@
 }
 .section-header {
   font-weight: 600;
-  font-size: clamp(20px, 5vw, 36px);
-  margin-top: 1em;
-  margin-bottom: 0.5em;
+  font-size: clamp(24px, 5vw, 36px);
+  margin-top: 1.25em;
+  margin-bottom: 0.75em;
 }
 
 .post-container {
