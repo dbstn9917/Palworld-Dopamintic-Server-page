@@ -37,21 +37,87 @@
       <nav class="top-navbar">
         <div class="container">
           <ul class="reset-ul">
-            <li>
-              <a href="/" class="reset-a d-flex">
-                <div class="d-flex align-items-center top-nav-logo-box">
-                  <img class="pal-logo" src="/img/palworld-logo.jpg" alt="" />
-                  <span class="x-logo m-0">X</span>
-                  <span class="dopamintic-logo m-0">DOPAMINTIC</span>
+            <div class="row">
+              <div class="col">
+                <li>
+                  <a href="/" class="reset-a d-flex">
+                    <div class="d-flex align-items-center top-nav-logo-box">
+                      <img
+                        class="pal-logo"
+                        src="/img/palworld-logo.jpg"
+                        alt=""
+                      />
+                      <span class="x-logo m-0">X</span>
+                      <span class="dopamintic-logo m-0">DOPAMINTIC</span>
+                    </div>
+                  </a>
+                </li>
+              </div>
+
+              <div class="col top-nav-menu-container">
+                <div
+                  class="d-flex justify-content-end align-items-center gap-4 h-100"
+                >
+                  <li>
+                    <a class="reset-a top-nav-btn" href="/rules/">서버 규칙</a>
+                  </li>
+                  <li>
+                    <a class="reset-a red-btn" href="/join-now/"
+                      >지금 참여하기</a
+                    >
+                  </li>
                 </div>
-              </a>
-            </li>
+              </div>
+            </div>
           </ul>
         </div>
       </nav>
 
       <div class="main-container">
-        <p>대충 참여하기 페이지</p>
+        <div class="container">
+          <header class="main-header">
+            <div class="main-header-text-container">
+              <h1>서버에 참여하기</h1>
+              <p>다른 팰 조련사들과 함께 모험하세요.</p>
+            </div>
+            <div class="server-address-block mt-4">
+              <code>pal.dopamintic.com:8211</code>
+            </div>
+          </header>
+
+          <main class="pb-5">
+            <div class="post-container">
+              <h1 class="section-header">어떻게 서버에 접속하나요?</h1>
+              <p class="m-0">팰월드에서 서버에 접속하는 방법을 알아봅시다.</p>
+              <p>팰월드를 실행하고 다음의 단계를 따라주세요.</p>
+              <div class="post-callout post-callout--yellow">
+                <div class="post-callout-title">
+                  <i class="fas fa-info"></i>
+                  <span>INFO</span>
+                </div>
+                <div class="post-callout-body">
+                  <p>
+                    원활한 서버 이용을 위해
+                    <a class="reset-a post-btn fw-bold" href="/rules/"
+                      >서버 규칙</a
+                    >을 확인해주세요.
+                  </p>
+                </div>
+              </div>
+              <img class="post-img mb-3" src="/img/join-1.jpg" alt="" />
+              <p>
+                <span class="fw-bold">멀티 플레이 참가하기 (전용서버)</span>를
+                선택해 줍니다.
+              </p>
+              <img class="post-img mb-3" src="/img/join-2.jpg" alt="" />
+              <p>
+                서버 목록 하단 입력칸에
+                <code class="post-server-address">pal.dopamintic.com:8211</code>
+                를 입력 해주세요
+              </p>
+            </div>
+          </main>
+        </div>
       </div>
 
       <footer>
